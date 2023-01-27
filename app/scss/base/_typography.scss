@@ -1,3 +1,23 @@
+@use "../sass-utils/variables" as *;
+
+a {
+    font-family: 'Roboto';
+    text-transform: uppercase;
+    text-decoration: none;
+}
 h1 {
-    color: red;
+    font-family: "Inter";
+    font-size: 3rem;
+    line-height: 4.5rem;
+    font-weight: 700;
+    color: #4F4F4F;
+    margin: 1rem 0rem;
+}
+p {
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+    color: $gray;
+    margin: 1rem 0rem;
 }

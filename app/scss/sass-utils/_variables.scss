@@ -1,0 +1,13 @@
+$site-width: 1195px;
+
+// Colors
+$white: #fff;
+$gray: #5A6B7B;
+$dark-blue: #0288D1;
+
+$cerulean: #03A9F4;
+$cutty-sark: #546E7A;
+
+// Lighten colors
+$light-cerulean: lighten($cerulean, 10%); 
+$light-gray: lighten($gray, 10%); 

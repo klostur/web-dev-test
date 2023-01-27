@@ -1,5 +1,8 @@
 @use "base/reset" as *;
 @use "base/typography" as *;
 @use "sass-utils/variables" as *;
+@use "sections/container" as *;
+@use "components/button" as *;
 @use "layout/header" as *;
 @use "sections/hero" as *;
+

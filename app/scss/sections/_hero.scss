@@ -1,0 +1,37 @@
+@use '../sass-utils/variables' as *;
+
+.hero {
+    min-height: 43.75rem;
+    background: linear-gradient(#EAF8FF, #fff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+
+    &__left--out {
+        width: calc( (100vw - $site-width ) / 2);
+    }
+    &__left--in {
+        flex: 1.2;
+    }
+    &__right--in {
+        flex: 2;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .hero__review {
+        display: flex;
+        align-items: center;
+
+        span {
+            font-family: "Inter";
+            font-size: 1.125rem;
+            color: $cutty-sark;
+            margin-left: 1rem;
+        }
+    }
+
+
+
+}

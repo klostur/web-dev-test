@@ -1,0 +1,48 @@
+@use "../sass-utils/variables" as *;
+
+.navbar {
+    position: fixed;
+    height: 2rem;
+    width: 100%;
+    .container {
+        justify-content: space-between;
+    }
+    .nav-logo {
+        margin-right: 3rem;
+    }
+    .nav-menu {
+        display: flex;
+        flex: 1;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+        &__left a:last-child,
+        &__right a:last-child {
+            margin-right: 0;
+        }
+        a {
+            text-decoration: none;
+            color: $gray;
+            text-transform: uppercase;
+            margin: 0 1.5rem ;
+            font-size: 0.8125rem;
+
+            &:hover {
+                color: $light-gray;
+            }
+        }
+        .btn {
+            border: 1px solid $cerulean;
+            padding: 0.8125rem 2.5rem ;
+            color: $cerulean;
+            border-radius: 3px;
+
+            &:hover {
+                color: $light-cerulean;
+                border-color: $light-cerulean;
+            }
+        }
+    }
+    
+}
