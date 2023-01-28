@@ -1,4 +1,5 @@
 @use "../sass-utils/variables" as *;
+@use "../sass-utils/media" as *;
 
 .button {
     display: inline-block;
@@ -14,6 +15,9 @@
     border-bottom: 4px solid #0277BD;
     transition: all 0.3s ease-in;
 
+    @include for-tablet {
+        padding: 0.5rem 1.5rem;
+    }
     &:hover {
         background-color: lighten($dark-blue, 10%);
     }

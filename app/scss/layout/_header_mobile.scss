@@ -49,7 +49,7 @@
     @include for-tablet {
       position: absolute;
       top: 0;
-      right: 0;
+      right: -10rem;
       opacity: 0;
       flex-direction: column;
       justify-content: center;
@@ -58,7 +58,7 @@
       width: 0vw;
       height: 100vh;
       background-color: $light-gray;
-      color: #fff;
+      color: $white;
       transition: all .5s ease;
     }
 
@@ -72,12 +72,18 @@
         width: 100%;
 
         a {
-          color: #fff !important;
+          color: $white;
           margin: 0;
           padding: 20px;
+          transition: all 0.3s ease;
 
+          &:hover {
+            color: #2ebcfc;
+          }
+        
           &.btn {
-            border: 0px;
+            color: $white;
+            border-color: $white;
           }
         }
       }
@@ -89,6 +95,7 @@
 
     &:checked ~ .nav-menu {
       @include for-tablet {
+        right: 0;
         opacity: 1;
         width: 40vw;
       }

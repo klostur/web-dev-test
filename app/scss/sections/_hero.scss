@@ -57,7 +57,7 @@
         }
     }
 
-    .hero__review {
+    &__review {
         display: flex;
         align-items: center;
         gap: 1rem;
@@ -76,6 +76,10 @@
                 font-size: 1rem;
             }
         }
+    }
+
+    &__text {
+        margin-bottom: 2rem;
     }
 
 
