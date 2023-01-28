@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Roboto&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Roboto:wght@400;500&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="dist/css/style.css">
 </head>
@@ -35,21 +35,21 @@
     </nav>
     <!-- Hero section -->
     <section class="hero">
-            <div class="hero__left--out"></div>
-            <div class="hero__left--in">
-                <div class="hero__review">
-                    <img src="img/stars.svg" alt="Review Stars">
-                    <span>4.7 (4,295 reviews)</span>
-                </div>
-                <h1 class="hero__title">Best timesheet app</h1>
-                <p class="hero__text">Track time spent on projects and set hourly rates to charge clients more
-                    accurately. Use Clockify to streamline processes, improve team productivity and build transparency.
-                </p>
-                <a href="#" class="button button-primary">GET STARTED FOR FREE</a>
+        <div class="hero__left--out"></div>
+        <div class="hero__left--in">
+            <div class="hero__review">
+                <img src="img/stars.svg" alt="Review Stars">
+                <span>4.7 (4,295 reviews)</span>
             </div>
-            <div class="hero__right--in">
-                <img src="img/timesheets.jpg" alt="Clockify Dashboard">
-            </div>
+            <h1 class="hero__title">Best timesheet app</h1>
+            <p class="hero__text">Track time spent on projects and set hourly rates to charge clients more
+                accurately. Use Clockify to streamline processes, improve team productivity and build transparency.
+            </p>
+            <a href="#" class="button button-primary">GET STARTED FOR FREE</a>
+        </div>
+        <div class="hero__right--in">
+            <img src="img/timesheets.jpg" alt="Clockify Dashboard">
+        </div>
     </section>
     <!-- Trusted by section -->
     <section class="trusted">
@@ -69,8 +69,51 @@
         </div>
     </section>
 
-    
-
+    <!-- Features Section -->
+    <section class="features">
+        <div class="container">
+            <div class="features__heading">
+                <h2>Features</h2>
+                <div class="feature-filter">
+                    <select id="filter">
+                        <option disabled selected value="none">Select category</option>
+                        <option>Category 1</option>
+                        <option>Category 2</option>
+                    </select>
+                </div>
+            </div>
+            <div class="features__list">
+                <div class="features__item">
+                    <div class="item_info">
+                        <h3>Feature A</h3>
+                        <p>Category 1</p>
+                    </div>
+                    <div class="item__link"><a href="#"><img src="img/arrow-right.svg" alt="Arrow Right"></a></div>
+                </div>
+                <div class="features__item">
+                    <div class="item_info">
+                        <h3>Feature B</h3>
+                        <p>Category 1</p>
+                    </div>
+                    <div class="item__link"><a href="#"><img src="img/arrow-right.svg" alt="Arrow Right"></a></div>
+                </div>
+                <div class="features__item">
+                    <div class="item_info">
+                        <h3>Feature C</h3>
+                        <p>Category 2</p>
+                    </div>
+                    <div class="item__link"><a href="#"><img src="img/arrow-right.svg" alt="Arrow Right"></a></div>
+                </div>
+                <div class="features__item">
+                    <div class="item_info">
+                        <h3>Feature D</h3>
+                        <p>Category 2</p>
+                    </div>
+                    <div class="item__link"><a href="#"><img src="img/arrow-right.svg" alt="Arrow Right"></a></div>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
     <!-- JS scripts -->
