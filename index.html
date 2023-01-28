@@ -21,6 +21,10 @@
                     <img src="img/logo.svg" alt="Clockify Logo">
                 </a>
             </div>
+            <input type="checkbox" class="menu-btn" id="menu-btn">
+            <label for="menu-btn" class="menu-icon">
+                <span class="menu-icon__line"></span>
+            </label>
             <div class="nav-menu">
                 <div class="nav-menu__left">
                     <a href="#">Download</a>
@@ -75,36 +79,36 @@
             <div class="features__heading">
                 <h2>Features</h2>
                 <div class="feature-filter">
-                    <select id="filter">
-                        <option disabled selected value="none">Select category</option>
+                    <select id="filter" onchange="filterFeatures()">
+                        <option selected value="none">Select category</option>
                         <option>Category 1</option>
                         <option>Category 2</option>
                     </select>
                 </div>
             </div>
             <div class="features__list">
-                <div class="features__item">
+                <div class="features__item" data-category="Category 1">
                     <div class="item_info">
                         <h3>Feature A</h3>
                         <p>Category 1</p>
                     </div>
                     <div class="item__link"><a href="#"><img src="img/arrow-right.svg" alt="Arrow Right"></a></div>
                 </div>
-                <div class="features__item">
+                <div class="features__item" data-category="Category 1">
                     <div class="item_info">
                         <h3>Feature B</h3>
                         <p>Category 1</p>
                     </div>
                     <div class="item__link"><a href="#"><img src="img/arrow-right.svg" alt="Arrow Right"></a></div>
                 </div>
-                <div class="features__item">
+                <div class="features__item" data-category="Category 2">
                     <div class="item_info">
                         <h3>Feature C</h3>
                         <p>Category 2</p>
                     </div>
                     <div class="item__link"><a href="#"><img src="img/arrow-right.svg" alt="Arrow Right"></a></div>
                 </div>
-                <div class="features__item">
+                <div class="features__item" data-category="Category 2">
                     <div class="item_info">
                         <h3>Feature D</h3>
                         <p>Category 2</p>
