@@ -1,2 +1,2 @@
-console.log("Hello world");
+const nav=document.querySelector(".navbar");window.addEventListener("scroll",(()=>{window.scrollY>10?nav.classList.add("scrolled"):nav.classList.remove("scrolled")}));
 //# sourceMappingURL=script.js.map

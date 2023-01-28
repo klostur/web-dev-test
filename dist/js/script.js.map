@@ -1,1 +1,1 @@
-{"version":3,"file":"script.js","names":["console","log"],"sources":["script.js"],"mappings":"AAAAA,QAAQC,IAAI"}
+{"version":3,"file":"script.js","names":["nav","document","querySelector","window","addEventListener","scrollY","classList","add","remove"],"sources":["script.js"],"mappings":"AAAA,MAAMA,IAAMC,SAASC,cAAc,WAGnCC,OAAOC,iBAAiB,UAAU,KACPD,OAAOE,QAER,GAClBL,IAAIM,UAAUC,IAAI,YAElBP,IAAIM,UAAUE,OAAO,WACzB"}

@@ -5,7 +5,8 @@
     max-width: $site-width;
     margin: 0 auto;
     display: flex;
-    @include for-phone {
+    
+    @include for-laptop {
         padding: 1rem 2rem;
     }
     padding: 2rem 0rem;
