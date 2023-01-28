@@ -1,4 +1,4 @@
-
+@use "../sass-utils/media" as *;
 
 .features {
 
@@ -10,6 +10,10 @@
         justify-content: space-between;
         margin-bottom: 1.25rem;
         align-items: center;
+        @include for-phone {
+            flex-direction: column;
+            gap: 2rem;
+        }
     }
 
     &__list {

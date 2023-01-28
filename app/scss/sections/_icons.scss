@@ -1,18 +1,32 @@
+@use "../sass-utils/media" as *;
+
 .icons {
     .container {
         justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 50px;
+        @include for-tablet {
+           justify-content: center;
+        }
+        
     }
     &__item {
         display: flex;
         justify-content: center;
         align-items: center;
         gap: 5px;
+        @include for-phone {
+            width: 100%;
+        }
 
         span {
             font-family: Roboto;
             font-size: 2.75rem;
+            font-size: clamp(1.825rem, 3vw, 2.75rem);
             line-height: 1.4em;
             color: #3D4853;
+
+            
         }
     }
 }
