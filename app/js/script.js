@@ -16,7 +16,7 @@ function filterFeatures() {
 
     let selectedCategory = select.value;
     // If a default "Select category" option is selected, the value become "none" (facepalm)
-    console.log(selectedCategory.value);
+    //console.log(selectedCategory.value);
     let featureItems = document.getElementsByClassName("features__item");
 
     for (let i = 0; i < featureItems.length; i++) {
